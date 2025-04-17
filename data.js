@@ -8,20 +8,12 @@ const villes = [
   { name: "Grenoble", habitants: 160000, region: "Auvergne-Rhône-Alpes" },
   { name: "Saint-Étienne", habitants: 175000, region: "Auvergne-Rhône-Alpes" },
   { name: "Nanterre", habitants: 95000, region: "Île-de-France" },
-  {
-    name: "Marseille",
-    habitants: 870000,
-    region: "Provence-Alpes-Côte d'Azur",
-  },
+  { name: "Marseille",habitants: 870000, region: "Provence-Alpes-Côte d'Azur"},
   { name: "Boulogne-Billancourt", habitants: 120000, region: "Île-de-France" },
   { name: "Cannes", habitants: 74000, region: "Provence-Alpes-Côte d'Azur" },
   { name: "Lyon", habitants: 520000, region: "Auvergne-Rhône-Alpes" },
   { name: "Valence", habitants: 63000, region: "Auvergne-Rhône-Alpes" },
-  {
-    name: "Aix-en-Provence",
-    habitants: 145000,
-    region: "Provence-Alpes-Côte d'Azur",
-  },
+  {name: "Aix-en-Provence",habitants: 145000,region: "Provence-Alpes-Côte d'Azur"},
   { name: "Montreuil", habitants: 109000, region: "Île-de-France" },
 ];
 
