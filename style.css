@@ -1,0 +1,39 @@
+.region-headers {
+  display: grid;
+  grid-template-columns: [paca] 1fr [idf] 1fr [ara] 1fr;
+  gap: 2em;
+  margin-bottom: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+.region-header {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.city-list {
+  display: grid;
+  grid-template-columns: [paca] 1fr [idf] 1fr [ara] 1fr;
+  grid-auto-flow: row dense;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+}
+
+[data-region="Provence-Alpes-Côte d'Azur"] {
+  grid-column: paca;
+}
+
+[data-region="Île-de-France"] {
+  grid-column: idf;
+}
+
+[data-region="Auvergne-Rhône-Alpes"] {
+  grid-column: ara;
+}
+
+.populous {
+  color: red;
+}
