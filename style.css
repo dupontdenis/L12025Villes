@@ -8,9 +8,12 @@
 }
 
 .region-header {
-  text-align: center;
+  list-style: none;
   font-weight: bold;
-  color: #333;
+  color: white;
+  /* Change text color to white */
+  background-color: black;
+  /* Set background color to black */
 }
 
 .city-list {
@@ -18,8 +21,7 @@
   grid-template-columns: [paca] 1fr [idf] 1fr [ara] 1fr;
   grid-auto-flow: row dense;
   gap: 2em;
-  list-style: none;
-  padding: 0;
+  padding: 1em;
 }
 
 [data-region="Provence-Alpes-Côte d'Azur"] {

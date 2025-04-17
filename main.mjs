@@ -68,10 +68,14 @@ function transformVilles(villes) {
 const transformedVilles = transformVilles(villes);
 console.log(transformedVilles);
 
-function createRegionHeaders(villes) {
+function createRegionHeaders() {
   let headers = "";
-  const regions = [...new Set(villes.map((ville) => ville.region))]; // Get unique regions
-
+  // const regions = [...new Set(villes.map((ville) => ville.region))]; // Get unique regions
+  const regions = [
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France",
+    "Auvergne-Rhône-Alpes",
+  ]; // Hardcoded for demonstration
   for (const region of regions) {
     headers += `<li class="region-header">${region}</li>`;
   }
